@@ -1,0 +1,6 @@
+C:\Users\Asus\Documents\Duoc\ASP.Net\SolucionMarket\bibliotecaAuto\bin\Debug\bibliotecaAuto.dll
+C:\Users\Asus\Documents\Duoc\ASP.Net\SolucionMarket\bibliotecaAuto\bin\Debug\bibliotecaAuto.pdb
+C:\Users\Asus\Documents\Duoc\ASP.Net\SolucionMarket\bibliotecaAuto\obj\Debug\bibliotecaAuto.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\Duoc\ASP.Net\SolucionMarket\bibliotecaAuto\obj\Debug\bibliotecaAuto.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Duoc\ASP.Net\SolucionMarket\bibliotecaAuto\obj\Debug\bibliotecaAuto.dll
+C:\Users\Asus\Documents\Duoc\ASP.Net\SolucionMarket\bibliotecaAuto\obj\Debug\bibliotecaAuto.pdb
