@@ -42,7 +42,7 @@ namespace WebProducto
                 prod.StockCritico = Convert.ToInt32(txtStockCritico.Text.ToString());
             else
                 prod.StockCritico = 0;
-            LimpiarControles();
+            //LimpiarControles();
         }
     }
 }
