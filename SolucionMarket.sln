@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.779
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bibliotecaAuto", "bibliotecaAuto\bibliotecaAuto.csproj", "{1CCD9B16-F2C5-4A8D-8E04-F00C9C847556}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebProducto", "WebProducto\WebProducto.csproj", "{8E44EBDF-152D-4783-9972-AF968C5F87EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{E364F4C6-75D8-4D7F-A53C-9D3B0179B27A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\0HPePazLafk-htyZYOKs7_FMgW8rVQjZ.jpg = ..\..\..\Desktop\0HPePazLafk-htyZYOKs7_FMgW8rVQjZ.jpg
+		..\..\..\Desktop\0zcOXYp6H4mnWaCFxKahM_-g3uU1n6pV.png = ..\..\..\Desktop\0zcOXYp6H4mnWaCFxKahM_-g3uU1n6pV.png
+		..\..\..\Desktop\wOzkBK1YqX3CUiTB6XyZSqnnGzewLjpA.png = ..\..\..\Desktop\wOzkBK1YqX3CUiTB6XyZSqnnGzewLjpA.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
