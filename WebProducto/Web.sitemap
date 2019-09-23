@@ -2,6 +2,7 @@
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="Inicio.aspx" title="Inicio de la aplicación"  description="Bienvenida a la aplicación">
     <siteMapNode url="Registro.aspx" title="Registro de Productos"  description="" />
+    <siteMapNode url="Catalogo.aspx" title="Listado de Productos"  description="" />
     <siteMapNode url="Consulta.aspx" title="Consulta de los productos registrados"  description="" />
   </siteMapNode>
 </siteMap>

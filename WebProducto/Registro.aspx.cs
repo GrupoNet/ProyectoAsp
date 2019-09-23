@@ -9,6 +9,8 @@ namespace WebProducto
 {
     public partial class Registro : System.Web.UI.Page
     {
+        List<Producto> prods = new List<Producto>(); 
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -17,9 +19,9 @@ namespace WebProducto
         {
             txtCodigo.Text = string.Empty;
             txtDescrip.Text = string.Empty;
+            ddlCategoria.SelectedValue = string.Empty;
+            txtCant.Text = string.Empty;
             txtPrecio.Text = string.Empty;
-            txtStock.Text = string.Empty;
-            txtStockCritico.Text = string.Empty;
 
         }
 
@@ -28,21 +30,29 @@ namespace WebProducto
             Producto prod = new Producto();
             prod.Codigo = txtCodigo.Text;
             prod.Descripcion = txtDescrip.Text;
-            float val = 0;
-            if (float.TryParse(txtPrecio.Text, out val))
-                prod.PrecioUnitario = float.Parse(txtPrecio.Text);
+            prod.Categoria = txtCant.Text;
+
+            int val = 0;
+            if (int.TryParse(txtCant.Text, out val))
+                prod.Cantidad = Convert.ToInt32(txtCant.Text.ToString());
             else
-                prod.PrecioUnitario = val;
-            int stock = 0;
-            if (int.TryParse(txtStock.Text, out stock))
-                prod.Stock = Convert.ToInt32(txtStock.Text.ToString());
+                prod.Cantidad = 0;
+            if (int.TryParse(txtPrecio.Text, out val))
+                prod.Precio = Convert.ToInt32(txtPrecio.Text.ToString());
             else
-                prod.Stock = 0;
-            if (int.TryParse(txtStockCritico.Text, out stock))
-                prod.StockCritico = Convert.ToInt32(txtStockCritico.Text.ToString());
-            else
-                prod.StockCritico = 0;
-            //LimpiarControles();
+                prod.Precio = 0;
+            prods.Add(prod);
+            LimpiarControles();
+        }
+
+        protected void btnModificar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
