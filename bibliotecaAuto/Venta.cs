@@ -13,6 +13,17 @@ namespace bibliotecaAuto
         public int Total { get; set; }
         public Cliente cliente { get; set; }
 
+        public Venta()
+        {
+            Init();
+        }
 
+        private void Init()
+        {
+            Codigo = string.Empty;
+            Fecha = DateTime.Today;
+            Total = 0;
+            cliente = new Cliente();
+        }
     }
 }

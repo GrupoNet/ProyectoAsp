@@ -9,7 +9,7 @@ namespace WebProducto
 {
     public partial class Registro : System.Web.UI.Page
     {
-        List<Producto> prods = new List<Producto>(); 
+        List<Auto> prods = new List<Auto>(); 
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,7 +27,7 @@ namespace WebProducto
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Producto prod = new Producto();
+            Auto prod = new Auto();
             prod.Codigo = txtCodigo.Text;
             prod.Descripcion = txtDescrip.Text;
             prod.Categoria = txtCant.Text;
