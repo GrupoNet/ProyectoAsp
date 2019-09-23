@@ -8,16 +8,16 @@ namespace bibliotecaAuto
 {
     public class Categoria
     {
-        private string codCategoria { get; set; }
-        private string desCategoria { get; set; }
+        private string Codigo { get; set; }
+        private string Descripcion { get; set; }
 
 
 
         private void Init()
         {
 
-            this.codCategoria = string.Empty;
-            this.desCategoria = string.Empty;
+            this.Codigo = string.Empty;
+            this.Descripcion = string.Empty;
 
         }
 

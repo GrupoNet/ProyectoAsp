@@ -9,14 +9,14 @@ namespace bibliotecaAuto
     public class Login
     {
 
-        private string nombre { get; set; }
-        private string password { get; set; }
+        private string Nombre { get; set; }
+        private string Password { get; set; }
 
 
         private void Init()
         {
-            this.nombre = string.Empty;
-            this.password = string.Empty;
+            this.Nombre = string.Empty;
+            this.Password = string.Empty;
         }
 
 
