@@ -9,43 +9,28 @@ namespace bibliotecaAuto
     public class Producto
     {
         public string Codigo { get; set; }
-        private int _stock;
-        private int _stockcritico;
         public string Descripcion { get; set; }
-        public float PrecioUnitario { get; set; }
+        public string Categoria { get; set; }
+        private int _cantidad;
+        public float Precio { get; set; }
 
-        public int Stock
+        public int Cantidad
         {
             get
             {
-                return _stock;
+                return _cantidad;
             }
             set
             {
                 if (value < 0)
-                    throw new Exception("El valor del Stock no puede ser negativo");
+                    throw new Exception("El valor de la cantidad no puede ser negativo");
                 else
-                    _stock = value;
-            }
-
-        }
-        public int StockCritico
-        {
-            get
-            {
-                return _stockcritico;
-            }
-            set
-            {
-                if (value < 0)
-                    throw new Exception("El valor del Stock critico no puede ser negativo");
-                else
-                    _stockcritico = value;
+                    _cantidad = value;
             }
 
         }
 
-        public void producto()
+        public Producto()
         {
             Init();
         }
@@ -54,9 +39,9 @@ namespace bibliotecaAuto
         {
             Codigo = string.Empty;
             Descripcion = string.Empty;
-            PrecioUnitario = 0;
-            Stock = 0;
-            StockCritico = 0;
+            Categoria = string.Empty;
+            Cantidad = 0;
+            Precio = 0;
         }
     }
 }
