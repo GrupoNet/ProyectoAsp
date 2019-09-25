@@ -12,10 +12,6 @@ namespace bibliotecaAuto
         private string Descripcion { get; set; }
 
 
-        public Categoria()
-        {
-            Init();
-        }
 
         private void Init()
         {
@@ -23,6 +19,11 @@ namespace bibliotecaAuto
             this.Codigo = string.Empty;
             this.Descripcion = string.Empty;
 
+        }
+
+        public Categoria()
+        {
+            Init();
         }
     }
 }

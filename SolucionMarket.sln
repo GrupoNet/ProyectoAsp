@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{E364F4C6-75D8-4D7F-A53C-9D3B0179B27A}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\auto1.jpg = ..\..\..\Desktop\auto1.jpg
+		..\..\..\Desktop\wOzkBK1YqX3CUiTB6XyZSqnnGzewLjpA.png = ..\..\..\Desktop\wOzkBK1YqX3CUiTB6XyZSqnnGzewLjpA.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{6F28D93E-F8A1-4756-9C53-4C8993497A47}"
