@@ -8,15 +8,15 @@ namespace bibliotecaAuto
 {
     public class Cliente
     {
-        private string _Nombres;
-        private string _Apellidos;
+        private string _nombre;
+        private string _apellido;
         private string _RutCliente;
         private DateTime _FechaNacimiento;
-        private string _descripcionSex;
-        private string _descripEstCivil;
+        private string _sexo;
+        private string _estadoCivil;
         public Cliente()
         {
-            //this.Init();
+            this.Init();
         }
 
         private void Init()
@@ -32,19 +32,19 @@ namespace bibliotecaAuto
         public string Nombres
         {
             get
-            { return _Nombres; }
+            { return _nombre; }
 
             set
-            { _Nombres = value; }
+            { _nombre = value; }
         }
 
         public string Apellidos
         {
             get
-            { return _Apellidos; }
+            { return _apellido; }
 
             set
-            { _Apellidos = value; }
+            { _apellido = value; }
         }
 
         public string RutCliente
@@ -74,18 +74,18 @@ namespace bibliotecaAuto
         public string DescripcionSex
         {
             get
-            { return _descripcionSex; }
+            { return _sexo; }
 
             set
-            { _descripcionSex = value; }
+            { _sexo = value; }
         }
         public string DescripEstCivil
         {
             get
-            { return _descripEstCivil; }
+            { return _estadoCivil; }
 
             set
-            { _descripEstCivil = value; }
+            { _estadoCivil = value; }
         }
 
         public int IdSexo

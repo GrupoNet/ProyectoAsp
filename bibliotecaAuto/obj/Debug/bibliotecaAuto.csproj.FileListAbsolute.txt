@@ -10,3 +10,9 @@ C:\Users\Asus\Source\Repos\ProyectoAsp\bibliotecaAuto\obj\Debug\bibliotecaAuto.d
 C:\Users\Asus\Source\Repos\ProyectoAsp\bibliotecaAuto\obj\Debug\bibliotecaAuto.pdb
 C:\Users\Asus\Source\Repos\ProyectoAsp\bibliotecaAuto\bin\Debug\bibliotecaAuto.dll
 C:\Users\Asus\Source\Repos\ProyectoAsp\bibliotecaAuto\bin\Debug\bibliotecaAuto.pdb
+C:\Users\Asus\Source\Repos\ProyectoAsp2\bibliotecaAuto\bin\Debug\bibliotecaAuto.dll
+C:\Users\Asus\Source\Repos\ProyectoAsp2\bibliotecaAuto\bin\Debug\bibliotecaAuto.pdb
+C:\Users\Asus\Source\Repos\ProyectoAsp2\bibliotecaAuto\obj\Debug\bibliotecaAuto.csprojAssemblyReference.cache
+C:\Users\Asus\Source\Repos\ProyectoAsp2\bibliotecaAuto\obj\Debug\bibliotecaAuto.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Source\Repos\ProyectoAsp2\bibliotecaAuto\obj\Debug\bibliotecaAuto.dll
+C:\Users\Asus\Source\Repos\ProyectoAsp2\bibliotecaAuto\obj\Debug\bibliotecaAuto.pdb
