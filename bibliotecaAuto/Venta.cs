@@ -12,6 +12,7 @@ namespace bibliotecaAuto
         public DateTime Fecha { get; set; }
         public int Total { get; set; }
         public Cliente cliente { get; set; }
+        public Auto auto { get; set; }
 
         public Venta()
         {
