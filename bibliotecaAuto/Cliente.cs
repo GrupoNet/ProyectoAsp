@@ -16,7 +16,7 @@ namespace bibliotecaAuto
         private string _descripEstCivil;
         public Cliente()
         {
-            this.Init();
+            //this.Init();
         }
 
         private void Init()
