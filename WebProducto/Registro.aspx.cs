@@ -33,7 +33,6 @@ namespace WebProducto
         {
             txtCodigo.Text = string.Empty;
             txtDescrip.Text = string.Empty;
-            txtCategoria.Text = string.Empty;
             txtCant.Text = string.Empty;
             txtPrecio.Text = string.Empty;
 
@@ -44,7 +43,6 @@ namespace WebProducto
             Auto prod = new Auto();
             prod.Codigo = txtCodigo.Text;
             prod.Descripcion = txtDescrip.Text;
-            prod.Categoria = txtCategoria.Text;
 
             int val = 0;
             if (int.TryParse(txtCant.Text, out val))
